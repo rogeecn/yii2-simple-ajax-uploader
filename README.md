@@ -2,7 +2,13 @@ SimpleAjaxUploader For Yii2.x
 =============================
 SimpleAjaxUploader wraper of yii2 input extension
 
+single image upload or multiple image upload
+
 thks for [LPology/Simple-Ajax-Uploader](https://github.com/LPology/Simple-Ajax-Uploader)
+
+screenshot
+
+![](https://gith)
 
 Installation
 ------------
