@@ -8,7 +8,7 @@ thks for [LPology/Simple-Ajax-Uploader](https://github.com/LPology/Simple-Ajax-U
 
 screenshot
 
-![](https://gith)
+![](https://github.com/rogeecn/yii2-simple-ajax-uploader/blob/master/screenshot.jpg)
 
 Installation
 ------------
