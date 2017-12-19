@@ -1,0 +1,28 @@
+{
+  "name": "rogeecn/yii2-simple-ajax-uploader",
+  "description": "SimpleAjaxUploader wraper of yii2 input extension",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "SimpleAjaxUploader",
+    "ajax",
+    "image",
+    "uploader"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rogee",
+      "email": "rogeecn@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "rogeecn\\SimpleAjaxUploader\\": "src"
+    }
+  }
+}

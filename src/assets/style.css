@@ -1,0 +1,31 @@
+.uploader-image-container .thumbnail {
+    float: left;
+    display: block;
+    margin: 10px 5px 10px 0;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.uploader-image-container .thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+.uploader-image-container .thumbnail .remove-thumbnail {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    background: red;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
