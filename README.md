@@ -6,7 +6,7 @@ single image upload or multiple image upload
 
 thks for [LPology/Simple-Ajax-Uploader](https://github.com/LPology/Simple-Ajax-Uploader)
 
-screenshot
+## Screenshot
 
 ![](https://github.com/rogeecn/yii2-simple-ajax-uploader/blob/master/screenshot.jpg)
 
