@@ -1,11 +1,12 @@
 {
   "name": "rogeecn/yii2-simple-ajax-uploader",
-  "description": "SimpleAjaxUploader wraper of yii2 input extension",
+  "description": "SimpleAjaxUploader wrapper of Yii2 input extension https://github.com/LPology/Simple-Ajax-Uploader",
   "type": "yii2-extension",
   "keywords": [
     "yii2",
     "extension",
     "SimpleAjaxUploader",
+    "Simple-Ajax-Uploader",
     "ajax",
     "image",
     "uploader"

@@ -2,6 +2,8 @@ SimpleAjaxUploader For Yii2.x
 =============================
 SimpleAjaxUploader wraper of yii2 input extension
 
+thks for [LPology/Simple-Ajax-Uploader](https://github.com/LPology/Simple-Ajax-Uploader)
+
 Installation
 ------------
 
@@ -10,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist rogeecn/yii2-simple-ajax-uploader "*"
+php composer.phar require --prefer-dist rogeecn/yii2-simple-ajax-uploader "~1.0.1"
 ```
 
 or add
 
 ```
-"rogeecn/yii2-simple-ajax-uploader": "*"
+"rogeecn/yii2-simple-ajax-uploader": "~1.0.1"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +30,13 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \rogeecn\SimpleAjaxUploader\AutoloadExample::widget(); ?>```
+// single image upload
+<?= $form->field($model,"xxx")->widget(\rogeecn\SimpleAjaxUploader\SingleImage::className(),[
+    // configuration..
+]); ?>
+
+// multiple image upload
+<?= $form->field($model,"xxx")->widget(\rogeecn\SimpleAjaxUploader\MultipleImage::className(),[
+    // configuration..
+]); ?>
+```
