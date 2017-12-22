@@ -5,7 +5,7 @@ namespace rogeecn\SimpleAjaxUploader;
 
 use yii\web\AssetBundle;
 
-class UploaderAssets extends AssetBundle
+class UploaderStyleAssets extends AssetBundle
 {
     public $css     = [
         'style.css',
@@ -14,6 +14,7 @@ class UploaderAssets extends AssetBundle
         "SimpleAjaxUploader.js",
     ];
     public $depends = [
+        'yii\bootstrap\BootstrapAsset',
     ];
 
     public function init()
