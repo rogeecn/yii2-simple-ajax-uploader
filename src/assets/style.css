@@ -13,6 +13,10 @@
     height: 100%;
 }
 
+.uploader-image-container img {
+    max-width: 100%;
+}
+
 .uploader-image-container .thumbnail .remove-thumbnail {
     display: block;
     position: absolute;

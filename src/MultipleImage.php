@@ -18,11 +18,12 @@ class MultipleImage extends ImageUploaderInput
     {
         $this->registerRemoveImage();
 
-        $value      = $this->model->{$this->attribute};
-        $uploadIcon = Html::tag("span", "", [
-            'class' => 'glyphicon glyphicon-cloud-upload',
-            'style' => 'font-size:52px; margin: 25px 0;',
-        ]);
+        $value = $this->value;
+        if ($this->hasModel()) {
+            $value = $this->model->{$this->attribute};
+        }
+
+        $uploadIcon = Html::tag("span", "", $this->uploadIconOptions);
         if (!empty($value)) {
             $value = explode(",", $value);
             foreach ($value as $imageURL) {

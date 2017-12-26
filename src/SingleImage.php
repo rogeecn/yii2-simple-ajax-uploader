@@ -12,19 +12,20 @@ class SingleImage extends ImageUploaderInput
     public function init()
     {
         parent::init();
-        $this->dropZoneOptions['style'] = "min-height: 150px;" . $this->dropZoneOptions['style'];
+        $this->dropZoneOptions['style'] = "min-height: 100px;" . $this->dropZoneOptions['style'];
     }
 
     public function renderImageUploader()
     {
         echo Html::beginTag("div", $this->dropZoneOptions);
 
-        $value = $this->model->{$this->attribute};
+        $value = $this->value;
+        if ($this->hasModel()) {
+            $value = $this->model->{$this->attribute};
+        }
+
         if (empty($value)) {
-            echo Html::tag("span", "", [
-                'class' => 'glyphicon glyphicon-cloud-upload',
-                'style' => 'font-size:82px; margin: 25px 0;',
-            ]);
+            echo Html::tag("span", "", $this->uploadIconOptions);
         } else {
             echo Html::img($value);
         }
