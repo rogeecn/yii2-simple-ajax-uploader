@@ -25,7 +25,7 @@ abstract class ImageUploaderInput extends InputWidget
         'class' => 'glyphicon glyphicon-cloud-upload',
         'style' => 'font-size:82px; margin: 25px 0;',
     ];
-    private $containerID;
+    protected $containerID;
 
     public function init()
     {

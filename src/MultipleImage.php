@@ -11,7 +11,7 @@ class MultipleImage extends ImageUploaderInput
         'class' => 'thumbnail text-center uploader-drop-zone',
         'style' => 'line-height: 120px;',
     ];
-    private $containerID;
+    protected $containerID;
 
 
     public function renderImageUploader()
